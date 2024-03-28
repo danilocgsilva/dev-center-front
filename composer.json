@@ -6,6 +6,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "danilocgsilva/dev-center": "^1.0",
         "laravel/framework": "^11.0",
         "laravel/tinker": "^2.9"
     },
@@ -52,6 +53,18 @@
             "dont-discover": []
         }
     },
+    "repositories": [
+        {
+            "name": "danilocgsilva/dev-center",
+            "type": "vcs",
+            "url": "git@github.com:danilocgsilva/dev-center.git"
+        },
+        {
+            "name": "danilocgsilva/ec2_wrapper",
+            "type": "vcs",
+            "url": "git@github.com:danilocgsilva/ec2-wrapper.git"
+        }
+    ],
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
